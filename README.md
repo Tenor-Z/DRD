@@ -6,7 +6,7 @@ DRD is a lightweight network scanner written in C, focused on practical TCP/UDP 
 It is being developed for low-level networking and cross-platform socket programming, with additional features being added over time.
 
 <p align="center">
-<img src="images/homedemo.png" width="500" height="500"> <img src="images/programlogo.png" width="200" height="200">
+<img src="images/programlogo.png" width="300" height="300">
 </p>
 
 ## Features
@@ -36,6 +36,7 @@ It is being developed for low-level networking and cross-platform socket program
 ---
 
 ## Installation
+<img src="images/homedemo.png" width="500" height="500"> 
 
 ### Linux
 
