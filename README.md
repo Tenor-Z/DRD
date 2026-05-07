@@ -36,7 +36,9 @@ It is being developed for low-level networking and cross-platform socket program
 ---
 
 ## Installation
-<center><img src="images/homedemo.png" width="500" height="500"></center>
+<p align="center">
+  <img src="images/homedemo.png" width="500" height="500">
+</p>
 
 ### Linux
 
