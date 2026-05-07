@@ -44,3 +44,9 @@ It is being developed for low-level networking and cross-platform socket program
 
 ```bash
 gcc DRD_intel.c -o drd -pthread
+```
+
+### Windows
+```commandprompt
+gcc -O2 -Wall -o drd.exe drd_intel.c -lws2_32 -liphlpapi
+```
