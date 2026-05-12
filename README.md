@@ -54,4 +54,4 @@ gcc -O2 -Wall -o drd.exe drd_intel.c -lws2_32 -liphlpapi
 
 ----
 
-### Example Usage
+## Example Usage
