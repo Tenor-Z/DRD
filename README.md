@@ -39,6 +39,7 @@ It is being developed for low-level networking and cross-platform socket program
 <p align="center">
   <img src="images/homedemo.png" width="500" height="500">
 </p>
+By default, there are two build scripts that come bundled with the program; one for Microsoft Windows and one for Linux builds. These are simple scripts that will compile the program, assuming you have GCC or another C++ compiler installed and configured. Alternatively, you can compile the program yourself using the commands provided below.
 
 ### Linux
 
@@ -50,3 +51,5 @@ gcc DRD_intel.c -o drd -pthread
 ```commandprompt
 gcc -O2 -Wall -o drd.exe drd_intel.c -lws2_32 -liphlpapi
 ```
+
+### Example Usage
