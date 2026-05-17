@@ -55,3 +55,12 @@ gcc -O2 -Wall -o drd.exe drd_intel.c -lws2_32 -liphlpapi
 ----
 
 ## Example Usage
+### Basic TCP scan
+
+```bash
+./drd example.com
+```
+### Scan a custom port range
+```bash
+./drd 192.168.1.1 -p 1-65535
+```
