@@ -64,3 +64,15 @@ gcc -O2 -Wall -o drd.exe drd_intel.c -lws2_32 -liphlpapi
 ```bash
 ./drd 192.168.1.1 -p 1-65535
 ```
+### Scan specific ports
+```bash
+./drd example.com -p 22,80,443
+```
+### CIDR subnet scanning
+```bash
+./drd 192.168.1.0/24 -top 20 -v
+```
+### Export HTML report
+```bash
+./drd 10.0.0.5 -sV -o report.html
+```
